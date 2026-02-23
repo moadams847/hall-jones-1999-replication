@@ -56,7 +56,7 @@ hall-jones-1999-replication/
 │   └── README_data.md          # Instructions for downloading all data files
 │
 ├── src/
-│   ├── data_pipeline.ipynb             # Step 1: data pipeline — merges all sources into hj_master.csv
+│   ├── data_pipeline.ipynb             # Step 1: data pipeline — merges all sources into merged.csv
 │   └── analysis.ipynb         # Step 2: analysis — levels accounting, IV regression, figures
 │
 └── outputs/
