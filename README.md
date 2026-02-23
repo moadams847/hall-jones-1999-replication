@@ -142,15 +142,15 @@ pip install numpy pandas scipy matplotlib
 
 ### Step 1 — Download data
 
-Follow the instructions in `data/README_data.md` to download all raw data files and place them in the `data/` folder.
+Follow the instructions in `data_/README_data.md` to download all raw data files and place them in the `data_/` folder.
 
 ### Step 2 — Run the data pipeline
 
 ```bash
-python src/hj_merge.py
+python src/data_pipeline.py
 ```
 
-This script merges all data sources into a single master dataset `outputs/hj_master.csv`. It will print a step-by-step log showing how many countries are matched at each stage. Expected output:
+This script merges all data sources into a single master dataset `outputs/merged.csv`. It will print a step-by-step log showing how many countries are matched at each stage. Expected output:
 
 ```
 >>> STEP 1: Loading PWT 10.01...
@@ -165,10 +165,10 @@ This script merges all data sources into a single master dataset `outputs/hj_mas
 ### Step 3 — Run the analysis
 
 ```bash
-python src/hj_analysis.py
+python src/analysis.py
 ```
 
-This script reads `hj_master.csv` and produces all tables and figures. Results are printed to the console and figures are saved to `outputs/`. Expected output includes Table I (levels accounting), Table II (OLS and 2SLS), and the two scatter plots.
+This script reads `merged.csv` and produces all tables and figures. Results are printed to the console and figures are saved to `outputs/`. Expected output includes Table I (levels accounting), Table II (OLS and 2SLS), and the two scatter plots.
 
 ---
 
