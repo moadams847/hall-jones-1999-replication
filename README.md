@@ -210,7 +210,7 @@ If you use this replication code, please cite both the original paper and this r
 > Hall, Robert E. and Charles I. Jones (1999). "Why Do Some Countries Produce So Much More Output Per Worker Than Others?" *Quarterly Journal of Economics* 114(1): 83–116.
 
 **This replication:**
-> [Your names] ([Year]). "Replication of Hall & Jones (1999)." GitHub repository: https://github.com/[yourusername]/hall-jones-1999-replication
+> [Mohammed Adams] ([Year]). "Replication of Hall & Jones (1999)." GitHub repository: https://github.com/[moadams847]/hall-jones-1999-replication
 
 ---
 
