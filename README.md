@@ -69,8 +69,6 @@ hall-jones-1999-replication/
 
 ## Data Sources
 
-**Do not commit raw data files to this repository.** Download each file from the source listed below, rename it exactly as shown, and place it in the `data/` folder before running the pipeline.
-
 ### 1. Penn World Tables 10.01
 
 - **File name:** `pwt1001.xlsx`
