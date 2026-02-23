@@ -157,7 +157,7 @@ This script merges all data sources into a single master dataset `outputs/merged
 >>> STEP 2: Constructing capital stocks...
   Capital stocks constructed for: 183 countries
 ...
->>> PIPELINE COMPLETE. Master dataset saved to: outputs/hj_master.csv
+>>> PIPELINE COMPLETE. Master dataset saved to: outputs/merged.csv
 ```
 
 ### Step 3 — Run the analysis
