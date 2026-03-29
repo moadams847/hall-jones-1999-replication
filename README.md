@@ -11,10 +11,13 @@ ABDULAI Yussif · ADAMS Mohammed · ADEOLA Ayankunle Babatunde · KHAYANKHYARVAA
 ## Repository structure
 
 ```
-├── 01_data_pipeline.ipynb     # Build master datasets from raw sources
-├── 02_analysis.ipynb          # Levels accounting + OLS/2SLS regressions
-├── 03_figures.ipynb           # Scatter plots (Figures 1 and 2)
-└── README.md
+├── src/
+│    ├── 01_data_pipeline.ipynb     # Build master datasets from raw sources
+│    ├── 02_analysis.ipynb          # Levels accounting + OLS/2SLS regressions
+│    └── 03_figures.ipynb           # Scatter plots (Figures 1 and 2)
+├── HallJonesQJE_We are replicating this paper.pdf
+├── README.md
+└── requirements.txt
 ```
 
 Run notebooks **in order**: `01` → `02` → `03`.
